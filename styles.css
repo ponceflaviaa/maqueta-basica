@@ -13,18 +13,13 @@ h3 {
     margin:10px 0px 10px 0px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    color: #000000;
+    text-shadow: 2px 0 0 #1d8538, -2px 0 0 #1d8538, 0 2px 0 #1d8538, 0 -2px 0 #1d8538, 1px 1px #1d8538, -1px -1px 0 #1d8538, 1px -1px 0 #1d8538, -1px 1px 0 #1d8538;
+
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: black;
-}
-header{
-    background-color: rgb(174, 236, 174);
-}
-
-p {
-    margin: 45px;
-
+    background-color:rgb(0 47 170);
 }
 
 ul {
@@ -32,22 +27,17 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(178 188 215 / 21%);
+    margin: 12px;
+    border-radius: 15px;
 }
 
 .descripcion {
-    background-color: rgb(156, 241, 156);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.trabajo {
-    margin-top: 15px;
-    background-color: rgb(153, 233, 153);
-}
-
-.estudios {
-    background-color: rgb(159, 233, 159);}
 .perfil {
     border-radius: 50%;
     border-width: 7px;
@@ -57,7 +47,6 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgb(135, 231, 135);
     width: 100%;
 }
 .imagenes img {
@@ -66,7 +55,7 @@ ul {
     margin: 10px;
 }
 footer{
-    background-color: rgb(153, 233, 153);
+    background-color: #DE3626;
     text-align: center;
     margin:10px 0px 10px 0px;
     margin-bottom: 0%;
