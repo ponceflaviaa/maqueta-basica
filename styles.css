@@ -5,22 +5,26 @@
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-html {
-    font-family: 'Roboto', sans-serif;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 h1,
 h2,
 h3 {
+    margin:10px 0px 10px 0px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+header{
+    background-color: rgb(174, 236, 174);
 }
 
 p {
-    display: inline;
-    align-items: center;
+    margin: 45px;
+
 }
 
 ul {
@@ -31,45 +35,52 @@ ul {
 }
 
 .descripcion {
-    background-color: aqua;
+    background-color: rgb(156, 241, 156);
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .trabajo {
-    background-color: aquamarine;
+    margin-top: 15px;
+    background-color: rgb(153, 233, 153);
 }
 
 .estudios {
-    background-color: bisque;
-}
+    background-color: rgb(159, 233, 159);}
 .perfil {
     border-radius: 50%;
     border-width: 7px;
     border-style: solid;
 }
 .imagenes {
-    background-color: gray;
-    width: 100vw;
-    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(135, 231, 135);
+    width: 100%;
 }
 .imagenes img {
-    width: 30%;
-    height: 15%;
+    width: 7rem;
+    height: 7rem;
     margin: 10px;
 }
+footer{
+    background-color: rgb(153, 233, 153);
+    text-align: center;
+    margin:10px 0px 10px 0px;
+    margin-bottom: 0%;
+
+}
 @media (max-width: 600px) {
-    .perfil{
-        width: 25%;
-        border-width: 3px;
+.perfil{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+    border-width: 3px;
     }
-    .imagenes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .imagenes img {
-        width: 50%;
-        height: 50%;
-    }
+p{
+    margin: 10px;
+
+}
 }
